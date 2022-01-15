@@ -1,0 +1,20 @@
+name = "well-known"
+type = "javascript"
+zone_id = ""
+account_id = "6f69eb15ec0a5662919d4bee9cecd014"
+route = ""
+workers_dev = true
+compatibility_date = "2022-01-13"
+
+[build]
+command = "npm install && npm run build"
+[build.upload]
+format = "service-worker"
+
+
+[env.production]
+# The ID of the domain to deploying to
+zone_id = "41d286b53b9b0b0b88fb962b7db752ed"
+
+# The route pattern your Workers application will be served at
+route = "helderferreira.io/.well-known/matrix/*"
