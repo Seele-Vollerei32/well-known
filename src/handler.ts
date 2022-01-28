@@ -4,7 +4,8 @@ export async function handleRequest(request: Request): Promise<Response> {
 
   const headers = {
     headers: {
-      "content-type": "application/json;charset=UTF-8"
+      "content-type": "application/json;charset=UTF-8",
+      "Access-Control-Allow-Origin": "*",
     }
   }
   
