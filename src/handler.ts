@@ -10,12 +10,12 @@ export async function handleRequest(request: Request): Promise<Response> {
   }
   
   const serverJson = {
-    "m.server": "matrix.helderferreira.io:443"
+    "m.server": "matrix.atunemic.cn:443"
   }
 
   const clientJson = {
       "m.homeserver": {
-          "base_url": "https://matrix.helderferreira.io"
+          "base_url": "https://matrix.atunemic.cn"
       },
       "m.identity_server": {
           "base_url": "https://vector.im"
