@@ -1,7 +1,7 @@
 name = "well-known"
 type = "javascript"
 zone_id = ""
-account_id = "6f69eb15ec0a5662919d4bee9cecd014"
+account_id = "77a37d339acf8213d7263e5bf351ef40"
 route = ""
 workers_dev = true
 compatibility_date = "2022-01-13"
@@ -14,7 +14,7 @@ format = "service-worker"
 
 [env.production]
 # The ID of the domain to deploying to
-zone_id = "41d286b53b9b0b0b88fb962b7db752ed"
+zone_id = "365f57d6577c17f5cbab2739bd3530fc"
 
 # The route pattern your Workers application will be served at
-route = "helderferreira.io/.well-known/matrix/*"
+route = "atunemic.cn/.well-known/matrix/*"
